@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DEEP's Real-Time Mood Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+</head>
+<body>
+    <h1>DEEP's Real-Time Mood Detection</h1>
+    <div class="container">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="canvas"></canvas>
+        <div id="loading-message">Loading Models...</div>
+    </div>
+    <div id="mood-display">Detecting...</div>
+
+    <div class="copyright">
+        &copy; 2024 Deepanshu Jayesh Ghosalkar (<a href="https://github.com/SPY-DEEP-06" target="_blank">SPY-DEEP-06</a>). All Rights Reserved.
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
